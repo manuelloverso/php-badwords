@@ -1,9 +1,9 @@
 <?php
 
-$message= 'ciao';
+/* $message= 'ciao';
 $paragraph= $_GET['paragraph'];
 var_dump($_GET);
-echo $paragraph;
+echo $paragraph; */
 ?>
 
 <!DOCTYPE html>

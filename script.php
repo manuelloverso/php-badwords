@@ -1,6 +1,8 @@
 <?php 
 $paragraph =$_GET['paragraph'];
 $word= $_GET['word'];
+
+$paragraphLength= strlen($paragraph);
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +13,7 @@ $word= $_GET['word'];
     <title>Document</title>
 </head>
 <body>
-    <p><?php  echo $paragraph?></p>
-    
+    <h3><?php  echo "$paragraph  $paragraphLength"?></h3>
+
 </body>
 </html>
